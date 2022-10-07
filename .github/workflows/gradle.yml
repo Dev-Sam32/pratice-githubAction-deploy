@@ -49,5 +49,5 @@ jobs:
         run: >
           aws deploy create-deployment --application-name be-66-dev-sam32
           --deployment-config-name CodeDeployDefault.AllAtOnce
-          --deployment-group-name be-66-Dev-Sam32-group
+          --deployment-group-name be-66-dev-sam32-group
           --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
